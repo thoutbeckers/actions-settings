@@ -3,3 +3,4 @@ description: 'Runs Probot-Settings to update repository configuration from setti
 runs:
   using: 'node16'
   main: 'dist/index.js'
+
