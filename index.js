@@ -6,7 +6,7 @@ const app = require('probot-settings');
 
 // Adapt the Probot app for Actions
 // This also acts as the main entrypoint for the Action
-console.debug(`app = ${app}`);
+console.debug(`app started`);
 run(app).catch((error) => {
   console.error(error);
   process.exit(1);
